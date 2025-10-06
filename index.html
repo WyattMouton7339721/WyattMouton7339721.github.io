@@ -1,13 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>CHANGE ME</title>
-  </head>
-
-  <body>
-    <!-- All content goes here -->
-    <div id="all-contents">
+<head>
+   <title>Wyatt's Great Webite</title>
+</head>
+<body>
+  <!--Visible HTML elements GO HERE-->
+  
+  <!-- All content goes here -->
+  <div id="all-contents">
+    <nav>
+      <h1>About me</h1>
+      <ul id="nav-ul">
+        <li class="nav-li">
+          <a href="index.html">Home</a>
+        </li>
+        <li class="nav-li">
+          <a href="portfolio.html">Portfolio</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <!-- Sidebar section -->
+      <div class="sidebar">
+        <img class="sidebar-img" src="data:image/png;base64,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">
+      </div>
       
-    </div>
-  </body>
+      <!-- Content section -->
+      <div class="content">
+        <h2>My favorite food</h2>
+        <p>Crawfish etuffee</p>
+        
+        <!-- Interests section -->
+        <div id="interests">
+          <h3>Interests</h3>
+          <ul>
+            <li>History</li>
+            <li>games</li>
+            <li>music</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
 </html>
+
