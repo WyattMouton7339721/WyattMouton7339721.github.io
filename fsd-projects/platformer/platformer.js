@@ -4,7 +4,7 @@ $(function () {
   ctx = canvas.getContext("2d");
   window.addEventListener("load", loadJson);
 
-  function setup() {
+  function setup() {} 
     if (firstTimeSetup) {
       halleImage = document.getElementById("player");
       projectileImage = document.getElementById("projectile");
@@ -27,14 +27,13 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    // toggleGrid();
+    toggleGrid();
 
 
     // TODO 2 - Create Platforms
-
-
-
-
+createPlatform(400, 700, 100, 10);
+createPlatform(600, 565, 10, 10);
+createPlatform(755, 555, 10, 10)
     // TODO 3 - Create Collectables
 
 
@@ -48,7 +47,7 @@ $(function () {
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
-  }
+  
 
   registerSetup(setup);
 });
