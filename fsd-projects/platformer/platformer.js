@@ -42,9 +42,9 @@ createCollectable('steve', 400, 400);
 createCollectable('steve', 400, 200);
     
     // TODO 4 - Create Cannons
-
-
-    
+createCannon("left", 550, 800);
+createCannon("left", 350, 800);
+createCannon("left", 200, 800);
     
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
